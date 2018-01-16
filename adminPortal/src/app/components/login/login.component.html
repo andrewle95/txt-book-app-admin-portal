@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Starter</title>
+  </head>
+
+  <form [formGroup]="loginForm">
+    <label>User:</label>
+    <br>
+    <input type="text" formControlName="user">
+    <br>
+    <label>Pass:</label>
+    <br>
+    <input type="password" formControlName="pass">
+    <br>
+  </form>
+  <button (click)="submitButton()">Submit</button>
+
+
+</html>
